@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3 align="center">Анкета користувача</h3>
+    <form name="form">
+      <p>
+        Ім'я
+        <input type="text" name="name" />
+      </p>
+      <p>
+        Прізвище
+        <input type="text" name="surname" />
+      </p>
+      <br />
+      <p>
+        Рік народження
+        <select name="year">
+          <option value=""></option>
+          <option value="2006">2006</option>
+          <option value="2005">2005</option>
+          <option value="2004">2004</option>
+          <option value="2003">2003</option>
+          <option value="2002">2002</option>
+          <option value="2001">2001</option>
+          <option value="2000">2000</option>
+        </select>
+      </p>
+      <br />
+      <p>
+        Стать
+        <input type="radio" name="gender" value="male" />
+        Чоловіча
+        <input type="radio" name="gender" value="female" />
+        Жіноча
+      </p>
+      <br />
+      <p>Країна проживання</p>
+      <p>
+        Україна
+        <input type="checkbox" name="country" value="ukraine" />
+      </p>
+      <p>
+        Інша
+        <input type="checkbox" name="country" value="other" />
+      </p>
+      <br />
+      <p>
+        Електронна адреса
+        <input type="email" name="email" />
+      </p>
+      <br />
+      <p>
+        Яким браузером переважно користуєтеся:
+        <br />
+        <input type="radio" name="browser" value="chrome" />
+        Chrome<br />
+        <input type="radio" name="browser" value="opera" />
+        Opera<br />
+        <input type="radio" name="browser" value="firefox" />
+        Firefox
+      </p>
+      <br />
+      <p>
+        Коментар
+        <br />
+        <textarea name="comment" cols="50" rows="5"></textarea>
+      </p>
+    </form>
+  </body>
+</html>
